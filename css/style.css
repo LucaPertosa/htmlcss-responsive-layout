@@ -113,7 +113,7 @@ header {
     display: none;
 }
 /* MAIN */
-main .container {
+.demo.container {
     margin-top: 120px;
     margin-bottom: 50px;
 }
@@ -146,17 +146,23 @@ section p {
 }
 .violet {
     background-color: var(--bg-color-section-violet);
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
+
 .strategic-planning h2 {
     color: white;
     margin: 20px 0;
 }
 
+
 .app-developement {
     background-color: white;
+    margin-top: 2rem;
 }
 
+.app-developement img {
+    width: 100%;
+}
 .app-developement h2 {
     color: black;
 }
