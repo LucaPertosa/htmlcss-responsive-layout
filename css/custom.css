@@ -104,9 +104,7 @@
     .strategic-planning {
         width: 25%;
     }
-    .strategic-planning img {
-        /* margin-top: 200px; */
-    }
+
     .strategic-planning h2 {
         font-size: 2rem;
         margin: 7rem 0;
@@ -116,7 +114,7 @@
     }
     /* /Strategic-planning section */
 
-    /* About-us section */
+    /* Work-withus section */
     .violet .raw {
         margin: 0 auto;
         display: flex;
@@ -127,6 +125,6 @@
     .violet .col {
         width: calc(100% / 3 - 20px);
     }
-    /* /About-us section */
+    /* /Work-withus section */
     /* /MAIN */
 }
