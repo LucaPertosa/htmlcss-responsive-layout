@@ -1,9 +1,9 @@
 /* RESPONSIVE TABLET */
 @media screen and (min-width: 768px) {
-    /* Header */
-    /* /Header */
+    /* HEADER */
+    /* /HEADER */
 
-    /* Main */
+    /* MAIN */
     /* Demo Section */
     .demo.container {
         display: flex;
@@ -31,31 +31,24 @@
         margin: 50px 0;
     }
     /* /Strategic-planning Section */
-
-
-
-    /* /Main */
-
-
+    /* /MAIN */
 }
 
 /* RESPONSIVE DESKTOP */
-
 @media screen and (min-width: 992px) {
     /* Common */
     .container {
         width: 80%;
         margin: 0 auto;
     }
+
     /* HEADER */
     .hamburger i {
         display: none;
     }
-
     .menu-desktop {
         display: contents;
     }
-
     .header-menu li:not(:last-child) {
         display: inline-block;
         margin: 0 1.2vw;
@@ -93,8 +86,5 @@
         width: 25%;
     }
     /* /Strategic-planning section */
-
     /* /MAIN */
-
-
 }

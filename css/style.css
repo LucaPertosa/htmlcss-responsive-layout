@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* VARIABLES */
 :root {
     --header-background-color: #0084FD;
@@ -15,11 +14,11 @@
     --CTA-free-text: #FDC160; 
     --header-height: 70px;
 }
-
 /* LAYOUT */
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 ul {
     list-style-type: none;
 }
@@ -28,6 +27,7 @@ img {
     max-width: 100%;
     display: block;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -42,6 +42,7 @@ a {
     padding: .7rem 1rem;
     border-radius: 2rem;
 }
+
 .button-blue {
     display: inline-block;
     text-transform: capitalize;
@@ -59,9 +60,6 @@ a {
     font-size: 1.5rem;
 }
 
-
-
-
 /* UTILITY */
 .text-ac {
     text-align: center;
@@ -74,6 +72,7 @@ a {
 .mt-25 {
     margin-top: 25px;
 }
+
 .flex {
     display: flex;
 }
@@ -81,8 +80,8 @@ a {
 .space-btw {
     justify-content: space-between;
 }
-/* HEADER */
 
+/* HEADER */
 header {
     background-color: var(--header-background-color);
     height: var(--header-height);
@@ -97,13 +96,12 @@ header {
     margin: 0 25px;
     align-items: center;
     height: 100%;
-    color: white;
 }
 
 .header-menu ul {
     align-items: center;
+    color: white;
 }
-
 
 .hamburger i {
     font-size: 1.5rem;
@@ -112,11 +110,15 @@ header {
 .menu-desktop {
     display: none;
 }
+/* /HEADER */
+
 /* MAIN */
+/* Demo-section */
 .demo.container {
     margin-top: 120px;
     margin-bottom: 50px;
 }
+
 section {
     background-color: var(--demo-section-bg-color);
     padding: 0 20px;
@@ -144,6 +146,9 @@ section p {
 .col i {
     color: var(--button-color-blue); 
 }
+/* /Demo-section */
+
+/* Strategic-planning section */
 .violet {
     background-color: var(--bg-color-section-violet);
     padding: 25px 0;
@@ -153,7 +158,9 @@ section p {
     color: white;
     margin: 20px 0;
 }
-
+.strategic-planning p {
+    color: white;
+}
 
 .app-developement {
     background-color: white;
@@ -163,6 +170,7 @@ section p {
 .app-developement img {
     width: 100%;
 }
+
 .app-developement h2 {
     color: black;
 }
@@ -182,9 +190,57 @@ section p {
     margin: 2rem;
     color: black;
 }
+/* /Strategic-planning section */
 
+/* Testimonial section */
+.testimonial {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+.testimonial h4{
+    font-weight: 300;
+    margin: 25px 0;
+} 
 
+.testimonial h2 {
+    color: var(--section-text-color);
+}
+.testimonial p {
+    color: white;
+    margin: 2rem 0;
+}
+.testimonial i {
+    font-size: 1.5rem;
+}
+.testimonial section {
+    margin-top: 25px;
+    background-color: var(--bg-color-section-violet);
+    padding: 25px;
+    color: white;
+}
+
+.img1,
+.img2,
+.img3{
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.img1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+.img2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+.img3 {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+/* /Testimonial section */
 
 /* /MAIN */
 
