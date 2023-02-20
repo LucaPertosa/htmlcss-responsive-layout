@@ -1,0 +1,29 @@
+/* RESPONSIVE TABLET */
+@media screen and (min-width: 780px) {
+}
+
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 992px) {
+    /* Common */
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* Header */
+    .hamburger i {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: contents;
+    }
+
+    .header-menu li:not(:last-child) {
+        display: inline-block;
+        margin: 0 1.2vw;
+        text-transform: capitalize;
+    }
+    /* /Header */
+
+}
