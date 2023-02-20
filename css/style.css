@@ -17,20 +17,63 @@
 }
 
 /* LAYOUT */
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 ul {
     list-style-type: none;
 }
 
-.header-menu a {
+img {
+    max-width: 100%;
+    display: block;
+}
+a {
     text-decoration: none;
     color: inherit;
 }
 
+.button.white {
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+}
+.button-blue {
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: var(--button-color-blue);
+    color: white;
+    font-size: 1.5rem;
+    padding: .7rem 3rem;
+    border-radius: 2rem;
+    margin: 20px 0;
+}
+
+.button i {
+    font-size: 1.5rem;
+}
+
+
 
 
 /* UTILITY */
+.text-ac {
+    text-align: center;
+}
 
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
 .flex {
     display: flex;
 }
@@ -66,16 +109,77 @@ header {
     font-size: 1.5rem;
 }
 
-.button.white {
-    text-transform: capitalize;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    padding: .7rem 1rem;
-    border-radius: 2rem;
-}
-
 .menu-desktop {
     display: none;
 }
+/* MAIN */
+main .container {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+section {
+    background-color: var(--demo-section-bg-color);
+    padding: 0 20px;
+    padding-top: 20px;
+    border-radius: 2rem;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: var(--button-color-blue);
+    margin: 20px 0;
+}
+
+section p {
+    color: black;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.col-big img {
+    max-width: 300px;
+}
+
+.col i {
+    color: var(--button-color-blue); 
+}
+.violet {
+    background-color: var(--bg-color-section-violet);
+    padding-bottom: 25px;
+}
+.strategic-planning h2 {
+    color: white;
+    margin: 20px 0;
+}
+
+.app-developement {
+    background-color: white;
+}
+
+.app-developement h2 {
+    color: black;
+}
+
+.app-developement p {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.app-developement i {
+    display: inline-block;
+    background-color: var(--bg-color-section-violet);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: 2rem;
+    color: black;
+}
+
+
+
+
+/* /MAIN */
+
 

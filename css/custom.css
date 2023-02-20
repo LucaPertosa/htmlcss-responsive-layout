@@ -1,5 +1,29 @@
 /* RESPONSIVE TABLET */
 @media screen and (min-width: 780px) {
+    /* Header */
+    /* /Header */
+
+    /* Main */
+    main .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: normal;
+    }
+
+    .col-big {
+        margin-bottom: 30px;
+        width: calc((100% / 3) * 2 - 10px);
+    }
+
+    .col {
+        margin-bottom: 30px;
+        width: calc(100% / 3 - 20px);
+    }
+
+    /* /Main */
+
+
 }
 
 /* RESPONSIVE DESKTOP */
@@ -7,6 +31,7 @@
 @media screen and (min-width: 992px) {
     /* Common */
     .container {
+        min-width: 990px;
         width: 70%;
         margin: 0 auto;
     }
@@ -25,5 +50,12 @@
         text-transform: capitalize;
     }
     /* /Header */
+
+    /* Main */
+    main .col-big {
+        display: flex;
+    }
+    /* /Main */
+
 
 }
