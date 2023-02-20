@@ -31,7 +31,35 @@
         margin: 50px 0;
     }
     /* /Strategic-planning Section */
-    
+
+    /* Testimonial section */
+    .testimonial section {
+        display: flex;
+        justify-content: left;
+    }
+    .text-area {
+        width: 60%;
+        text-align: left;
+    }
+    .img1,
+    .img2,
+    .img3{
+        margin: 0 50px 0 0;
+    }
+    /* /Testimonial section */
+
+    /* About-us section */
+    .violet .raw {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .violet .col {
+        width: calc(100% / 2 - 15px);
+    }
+    /* /About-us section */
+
     /* /MAIN */
 }
 
@@ -65,7 +93,7 @@
     /* /Demo-section */
 
     /* Strategic-planning section */
-    .violet {
+    .violet .sec {
         display: flex;
         justify-content: center;
         align-items: end;
@@ -87,5 +115,18 @@
         width: 25%;
     }
     /* /Strategic-planning section */
+
+    /* About-us section */
+    .violet .raw {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .violet .col {
+        width: calc(100% / 3 - 20px);
+    }
+    /* /About-us section */
     /* /MAIN */
 }

@@ -16,7 +16,7 @@
 }
 /* LAYOUT */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
 }
 
 ul {
@@ -51,6 +51,18 @@ a {
     background-color: var(--button-color-blue);
     color: white;
     font-size: 1.5rem;
+    padding: .7rem 3rem;
+    border-radius: 2rem;
+    margin: 20px 0;
+}
+
+.button-violet {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: var(--bg-color-section-violet);
+    color: white;
+    font-size: 1rem;
     padding: .7rem 3rem;
     border-radius: 2rem;
     margin: 20px 0;
@@ -160,6 +172,7 @@ section p {
 }
 .strategic-planning p {
     color: white;
+    line-height: 2rem;
 }
 
 .app-developement {
@@ -171,8 +184,9 @@ section p {
     width: 100%;
 }
 
-.app-developement h2 {
+.violet .app-developement h2 {
     color: black;
+    font-size: 2rem;
 }
 
 .app-developement p {
@@ -206,8 +220,11 @@ section p {
 .testimonial h2 {
     color: var(--section-text-color);
 }
-.testimonial p {
+.testimonial h3 {
     color: white;
+}
+.testimonial p {
+    color: black;
     margin: 2rem 0;
 }
 .testimonial i {
@@ -230,16 +247,49 @@ section p {
     width: 200px;
     height: 200px;
 }
+
 .img1 {
     background-image: url(../img/testimonial1.jpg);
 }
+
 .img2 {
     background-image: url(../img/testimonial2.jpg);
 }
+
 .img3 {
     background-image: url(../img/testimonial3.jpg);
 }
+
+.text-area p {
+    color: white;
+}
 /* /Testimonial section */
+
+/* About-us section */
+.violet h2 {
+    color: white;
+    font-size: 3rem;
+}
+.violet .text-area {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.violet .col h2,h3 {
+    color: var(--section-text-color);
+}
+
+.col h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.col p {
+    font-weight: 300;
+}
+.violet section.col {
+    background-color: white;
+}
+/* /About-us section */
 
 /* /MAIN */
 
