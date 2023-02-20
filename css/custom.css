@@ -93,7 +93,7 @@
     /* /Demo-section */
 
     /* Strategic-planning section */
-    .violet .sec {
+    .violet.sec {
         display: flex;
         justify-content: center;
         align-items: end;
