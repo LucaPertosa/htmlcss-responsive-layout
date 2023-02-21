@@ -37,7 +37,7 @@
         display: flex;
         justify-content: left;
     }
-    .text-area {
+    .testimonial .text-area {
         width: 60%;
         text-align: left;
     }
@@ -48,7 +48,7 @@
     }
     /* /Testimonial section */
 
-    /* About-us section */
+    /* Work-withus section */
     .violet .raw {
         display: flex;
         flex-wrap: wrap;
@@ -58,7 +58,7 @@
     .violet .col {
         width: calc(100% / 2 - 15px);
     }
-    /* /About-us section */
+    /* /Work-withus section */
 
     /* /MAIN */
 }
