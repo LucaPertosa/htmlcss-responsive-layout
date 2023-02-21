@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* VARIABLES */
 :root {
     --header-background-color: #0084FD;
@@ -12,8 +13,10 @@
     --bg-color-section-violet: #9792E4;
     --section-text-color: #9792E4;
     --CTA-free-text: #FDC160; 
+    --footer-bg-color: #333333;
     --header-height: 70px;
 }
+
 /* LAYOUT */
 body {
     font-family: 'PT sans', sans-serif;
@@ -153,7 +156,7 @@ section p {
 }
 
 .col-big img {
-    max-width: 300px;
+    width: 300px;
 }
 
 .col i {
@@ -171,6 +174,7 @@ section p {
     color: white;
     margin: 20px 0;
 }
+
 .strategic-planning p {
     color: white;
     line-height: 2rem;
@@ -299,7 +303,6 @@ section p {
 }
 /* /Work-withus section */
 
-
 /* About-us section */
 .about-us {
     padding: 50px 0;
@@ -347,11 +350,12 @@ section p {
 }
 /* /About-us section */
 
-/* CTA */
+/* Cta */
 .cta.violet .container{
     color: white;
     margin: 0 25px;
 }
+
 .cta h4 {
     color: lightgray;
     font-weight: 100;
@@ -394,8 +398,27 @@ section p {
 .cta a {
     text-decoration: underline;
 }
-/* /CTA */
-
+/* /Cta */
 /* /MAIN */
+
+/* FOOTER */
+footer {
+    color: lightgrey;
+    background-color: var(--footer-bg-color);
+}
+
+footer .container {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 25px 0;
+}
+
+footer a {
+    text-decoration: underline;
+    color: var(--section-text-color);
+}
+/* /FOOTER */
 
 
