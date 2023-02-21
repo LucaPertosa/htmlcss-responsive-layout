@@ -347,6 +347,55 @@ section p {
 }
 /* /About-us section */
 
+/* CTA */
+.cta.violet .container{
+    color: white;
+    margin: 0 25px;
+}
+.cta h4 {
+    color: lightgray;
+    font-weight: 100;
+    margin: 25px 0;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin: 25px 0;
+}
+
+.cta .yellow-t {
+    font-size: 4rem;
+    color: var(--CTA-free-text);
+}
+
+.cta .button.white {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin: 25px 0;
+    color: var(--section-text-color);
+}
+
+.cta ul {
+    font-size: .6rem;
+    justify-content: Center;
+}
+
+.cta li {
+    padding: 0 .2rem;
+}
+
+.cta li:not(:first-child) {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.cta a {
+    text-decoration: underline;
+}
+/* /CTA */
+
 /* /MAIN */
 
 
