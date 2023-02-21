@@ -15,8 +15,6 @@
         margin-bottom: 30px;
         width: calc((100% / 3) * 2 - 10px);
     }
-    .col-big img {
-    }
     .col {
         margin-bottom: 30px;
         width: calc(100% / 3 - 20px);
@@ -96,6 +94,7 @@
     } 
     /* /FOOTER */
 }
+/* /RESPONSIVE TABLET */
 
 /* RESPONSIVE DESKTOP */
 @media screen and (min-width: 992px) {
@@ -199,3 +198,12 @@
     } 
     /* /FOOTER */
 }
+/* /RESPONSIVE DESKTOP */
+
+/* RESPONSIVE LARGE-DESKTOP */
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+/* /RESPONSIVE LARGE-DESKTOP */
