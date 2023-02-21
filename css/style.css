@@ -220,16 +220,20 @@ section p {
 .testimonial h2 {
     color: var(--section-text-color);
 }
+
 .testimonial h3 {
     color: white;
 }
+
 .testimonial p {
     color: black;
     margin: 2rem 0;
 }
+
 .testimonial i {
     font-size: 1.5rem;
 }
+
 .testimonial section {
     margin-top: 25px;
     background-color: var(--bg-color-section-violet);
@@ -270,6 +274,7 @@ section p {
     color: white;
     font-size: 3rem;
 }
+
 .violet .text-area {
     width: 100%;
     margin: 50px auto;
@@ -283,13 +288,63 @@ section p {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+
 .col p {
     font-weight: 300;
 }
+
 .violet section.col {
     background-color: white;
 }
 /* /Work-withus section */
+
+
+/* About-us section */
+.about-us {
+    padding: 50px 0;
+}
+
+.about-us h2 {
+    color: var(--section-text-color);
+    font-size: 3rem;
+}
+
+.about-us .text-area p {
+    color: black;
+    margin: 2rem 0;
+    line-height: 2rem;
+}
+
+.linkedin i {
+    color: var(--section-text-color);
+    font-size: 4rem;
+}
+
+.linkedin h3 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.img4{
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    text-align: right;
+    background-image: url(../img/about.jpg);
+}
+
+.linkedin .button-violet {
+    letter-spacing: normal;
+    padding: .5rem 1rem;
+}
+
+.linkedin .button-violet i {
+    color: white;
+    font-size: 1rem;
+}
+/* /About-us section */
 
 /* /MAIN */
 
