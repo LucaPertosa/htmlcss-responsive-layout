@@ -67,7 +67,7 @@
         align-items: first baseline;
     }
     .about-us .text-area {
-        width: 50%;
+        width: 60%;
     }
     .about-us .linkedin {
         width: 200px;
@@ -146,7 +146,20 @@
     /* /Work-withus section */
 
     /* About-us section */
-
+    .about-us {
+        display: flex;
+        justify-content: space-between;
+        align-items: first baseline;
+    }
+    .about-us .text-area {
+        width: 50%;
+    }
+    .about-us .linkedin {
+        width: 40%;
+    }
+    .img4 {
+        margin: 0 auto;
+    }
     /* /About-us section */
     
     /* /MAIN */

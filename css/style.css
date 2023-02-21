@@ -102,6 +102,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 999;
 }
 
 .container {
@@ -329,8 +330,8 @@ section p {
     background-size: cover;
     background-position: center;
     border-radius: 100%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     text-align: right;
     background-image: url(../img/about.jpg);
 }
